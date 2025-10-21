@@ -7,6 +7,7 @@ const DURATION = "120";
 
 (async() => {
     const job = cron.schedule("*/5 * * * * *", async () => {
-        await verify(DATE, HOUR, DURATION);
+        const hey = await verify(DATE, HOUR, DURATION);
+        console.log(new Date().toISOString(), hey)
     });
 })();
