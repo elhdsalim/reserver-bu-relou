@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "axios": "^1.12.2",
+    "node-cron": "^4.2.1",
+    "typescript": "^5.9.3"
+  },
+  "name": "reserver-bu-relou",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhdsalim/reserver-bu-relou.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhdsalim/reserver-bu-relou/issues"
+  },
+  "homepage": "https://github.com/elhdsalim/reserver-bu-relou#readme"
+}
